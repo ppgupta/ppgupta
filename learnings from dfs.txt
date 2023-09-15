@@ -1,0 +1,90 @@
+project related information-- BFCMS- bank fraud case management system, we used to receive XAMS Message from mq as a input and we needed to process that xams messages through API and publish that case and store values of xams in relevant table
+
+//
+
+Optional Return Type  -- it is useful to avoid null pointer exception
+
+A container object which can store null values as well as non null values , if value is present it will  return True , Optional.IsPresent()-- true , and we can get its value by  optional.get() if value is not present then "NoSuchElementFoundException" occurs
+Optional.Empty()
+
+
+StringUtils.isBlank()-- java 11 feature
+
+String.format(this is my %s for %s in %s,"book","PP","")
+
+StringUtils.hasText()
+
+      restTemplate.postForObject(createPersonUrl, request, String.class);
+
+EmployeeList response = restTemplate.getForObject(
+  "http://localhost:8080/employees",
+  EmployeeList.class);
+List<Employee> employees = response.getEmployees();
+
+
+EmployeeList response = restTemplate.postForObject(
+  "http://localhost:8080/employees",
+  EmployeeList.class);
+
+
+used openshift container for deployment of the application
+//
+
+method of deploying an app on pcf
+
+set proxy
+
+cf login -a ______________Api link
+
+select organization and space
+cf push
+after that set enviroment variable from any running instances of that app
+change the app name by going into the setting
+add relevent services bu going inside working instances of that app
+
+
+we are doing virtualization , mocking of downstream services to do test autoscaling by scaling up , autoscaling means increasing or decreasing resources on basis of number of request we are getting per second.
+
+steps to do virtualization-
+
+firstly changes the endpoint in .yml file whichever downstream service i want to mock
+
+
+there is data type called as UUID 
+A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems.
+ You can create a UUID and use it to uniquely identify something. In its canonical textual representation, the 16 octets of a UUID are 
+represented as 32 hexadecimal (base-16) digits, displayed in five groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters
+ (32 hexadecimal characters and 4 hyphens). For example, a81bc81b-dead-4e5d-abff-90865d1e13b1.
+
+In Oracle NoSQL, UUID values are represented by the UUID data type. The UUID data type is considered a subtype of the STRING data type,
+ because UUID values are displayed in their canonical textual format and, in general, behave the same as string values in the various SQL operators 
+and expressions. However, in order to save disk space, the UUID value is saved in a compact format on disk. 
+If the UUID value is the primary key, the canonical 36-byte string is converted to a 19-byte string, then is saved on disk. 
+If the UUID value is a non-primary key, the canonical 36-byte string is converted to a 16-byte array, then is saved on disk.
+
+A table column can be declared as having UUID type in a CREATE TABLE statement. 
+The UUID data type is best-suited in situations where you need a globally unique identifier for the records in a table that span multiple regions
+ since identity columns are only guaranteed to be unique within a NoSQL cluster in a region.
+
+** Junit test cases , wiremock for the api
+
+mockito for mocking any services
+
+doNothing().when()
+doThrow(Exception.class).when(webhookserviceImpl).verifyAndUpdate(any(),any())
+
+spy()- method
+doNothing() - method
+
+@RunWith(PowerMockRunner.class)
+@PrepareForTest(fullyQualifiedNames = "com.baeldung.powermockito.introduction.*")
+
+
+// How to deploy application in ocp locally
+
+
+ we can also deploy in ocp using jenkins pipeline by runnin scripts
+
+we can deplot it locally using ocp cli
+
+
