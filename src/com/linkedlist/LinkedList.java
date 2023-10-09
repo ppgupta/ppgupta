@@ -1,5 +1,7 @@
 package com.linkedlist;
 
+import java.util.Optional;
+
 public class LinkedList {
 	
 	public Node head = null;  
@@ -120,55 +122,73 @@ public class LinkedList {
 	
 	
 public static void main(String[] args) {
-	LinkedList llist= new LinkedList();
-	//Node nd=new Node(5);
-//	creating nodes
-//	llist.head= new Node(5);
-//	Node second= new Node(8);
-//	Node third= new Node(18);
-//	Node fourth= new Node(28);
-//	Node fifth= new Node(38);
-	
-	llist.pushNode(55);
-	llist.pushNode(54);
-	llist.pushNode(53);
-	llist.pushNode(51);
-	llist.pushNode(52);
-	llist.pushNode(3);
-	llist.pushNode(1);
-//	llist.pushNode(2);
-	
-	llist.printNode();
-	
-//    llist.head.next=second;
-//    second.next=third;
-//    third.next=fourth;
-//    fourth.next=fifth;
-    
-//    System.out.println(fourth.data);  5  8 18  28  38
-    
-    Node fast=llist.head;
-    Node slow=llist.head;
-    while(fast.next!=null && fast!=null) {
-    	//System.out.println(tmp2.data);
-
-    	fast=fast.next.next;
-    	slow=slow.next;
-
-    }
-//    System.out.println("prinitng middle element");
-//    System.out.println(slow.data);
-    
-//    System.out.println("deletion");
-//    llist.deleteNode(55);
-//    System.out.println("new list");
+//	LinkedList llist= new LinkedList();
+//	//Node nd=new Node(5);
+////	creating nodes
+////	llist.head= new Node(5);
+////	Node second= new Node(8);
+////	Node third= new Node(18);
+////	Node fourth= new Node(28);
+////	Node fifth= new Node(38);
+//	
+//	llist.pushNode(55);
+//	llist.pushNode(54);
+//	llist.pushNode(53);
+//	llist.pushNode(51);
+//	llist.pushNode(52);
+//	llist.pushNode(3);
+//	llist.pushNode(1);
+////	llist.pushNode(2);
+//	
+//	llist.printNode();
+//	
+////    llist.head.next=second;
+////    second.next=third;
+////    third.next=fourth;
+////    fourth.next=fifth;
+//    
+////    System.out.println(fourth.data);  5  8 18  28  38
+//    
+//    Node fast=llist.head;
+//    Node slow=llist.head;
+//    while(fast.next!=null && fast!=null) {
+//    	//System.out.println(tmp2.data);
+//
+//    	fast=fast.next.next;
+//    	slow=slow.next;
+//
+//    }
+////    System.out.println("prinitng middle element");
+////    System.out.println(slow.data);
+//    
+////    System.out.println("deletion");
+////    llist.deleteNode(55);
+////    System.out.println("new list");
+////    llist.printNode();
+//   // System.out.println(llist.size());
+//    System.out.println("insert at middle");
+//    llist.insertAtMiddle(25, 4);
 //    llist.printNode();
-   // System.out.println(llist.size());
-    System.out.println("insert at middle");
-    llist.insertAtMiddle(25, 4);
-    llist.printNode();
-    System.out.println("reverse list");
-    llist.reverse();
+//    System.out.println("reverse list");
+//    llist.reverse();
+	
+	String str= "this is my class";
+	String str2= null;
+	
+	Optional<String> optional1= Optional.ofNullable(str);
+	Optional<String> optional2= Optional.ofNullable(str2);
 
+	System.out.println(optional1.isPresent());
+	System.out.println(optional1.get());
+
+	System.out.println(optional2.isPresent());
+	
+	System.out.println(optional1.isEmpty());
+	System.out.println(optional2.isEmpty());
+	
+	System.out.println(optional1.orElse("this is empty object"));
+	System.out.println(optional2.orElse("this is empty object"));
+
+	System.out.println(Math.pow(2, 8));
 }
 }

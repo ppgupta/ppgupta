@@ -7,13 +7,21 @@ Optional Return Type  -- it is useful to avoid null pointer exception
 A container object which can store null values as well as non null values , if value is present it will  return True , Optional.IsPresent()-- true , and we can get its value by  optional.get() if value is not present then "NoSuchElementFoundException" occurs
 Optional.Empty()
 
-
+###
+ Strings are immutable
 StringUtils.isBlank()-- java 11 feature
 
 String.format(this is my %s for %s in %s,"book","PP","")
 
+String.valueOf(any data type)
 StringUtils.hasText()
 
+
+String Builder
+ StringBuilder provides mutable string buffer
+
+
+##Rest Template
       restTemplate.postForObject(createPersonUrl, request, String.class);
 
 EmployeeList response = restTemplate.getForObject(
@@ -28,6 +36,11 @@ EmployeeList response = restTemplate.postForObject(
 
 
 used openshift container for deployment of the application
+
+we can deploy an app in ocp using two ways one by using jenkins pipeline , though in this method many times error comes in jenkins pipeline and deployment fails, we have to make changes in .helm file then push the code and jenkins jobs run after merging
+
+-Local deployment 
+Another way to deploy is through local deployments by running some set of command in cmd
 //
 
 method of deploying an app on pcf
@@ -81,10 +94,18 @@ doNothing() - method
 
 
 // How to deploy application in ocp locally
+ open your project directory from git bash and execute the following commands
 
+1. helm repo update
+
+2. oc login --token=___   --server=_______
+
+3. oc project  _________project name(partner-growth-paypal-sit)
+
+4.
 
  we can also deploy in ocp using jenkins pipeline by runnin scripts
 
-we can deplot it locally using ocp cli
+we can deploy it locally using ocp cli
 
 

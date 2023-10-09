@@ -1,6 +1,7 @@
 package com.linkedlist;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -45,34 +46,45 @@ public class Collection {
 		return false;
 	}
 public static void main(String[] args) {
-//	List list =new LinkedList<>();
-//	list.add(23);
-//	list.add("ppn");
-//	System.out.println(list.get(1));
-//	
+	List list =new LinkedList<>();
+	list.add(23);
+	list.add("ppn");
+	list.remove(0);
+	System.out.println(list);
+	
+//	String [] name= {"prem","jyoti"};
+//	Integer [] age= {25,24};
+//	Double [] marks= {22.24,20.0};
+//
+//	System.out.println(Arrays.toString(name));
+//	System.out.println(Arrays.toString(age));
+//	System.out.println(Arrays.toString(marks));
 //	List<String> ll= new ArrayList<>();
 //	ll.add("45");
-//	ll.add("415");ll.add("145");ll.add("245");ll.add("345");
-//	System.out.println(ll.get(1));
+//	ll.add("415");
+//	ll.add("145");
+//	ll.add("245");
+//	ll.add("345");
+//	System.out.println(ll);
 
-	Collection cl =new Collection();
-Scanner sc= new Scanner(System.in);
-	
-	String D_ND= sc.nextLine();
-	if(cl.isDebit(D_ND)) {
-		cl.setStopEmail("EMAIL");
-	}
-	//cl.setStopEmail("email");
-	cl.setStopPush("push");
-	cl.setStopSms("sms");
-	cl.setStopIvr("ivr");
-	
-	
-	
-	System.out.println(cl.getStopEmail());
-	System.out.println(cl.getStopPush());
-	System.out.println(cl.getStopSms());
-	System.out.println(cl.getStopIvr());
+//	Collection cl =new Collection();
+//Scanner sc= new Scanner(System.in);
+//	
+//	String D_ND= sc.nextLine();
+//	if(cl.isDebit(D_ND)) {
+//		cl.setStopEmail("EMAIL");
+//	}
+//	//cl.setStopEmail("email");
+//	cl.setStopPush("push");
+//	cl.setStopSms("sms");
+//	cl.setStopIvr("ivr");
+//	
+//	
+//	
+//	System.out.println(cl.getStopEmail());
+//	System.out.println(cl.getStopPush());
+//	System.out.println(cl.getStopSms());
+//	System.out.println(cl.getStopIvr());
 
 	}
 }
