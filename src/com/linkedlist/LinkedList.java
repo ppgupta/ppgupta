@@ -121,7 +121,14 @@ public class LinkedList {
 	
 	
 	
-public static void main(String[] args) {
+                     public static void main(String[] args) 
+
+
+
+
+
+
+{
 //	LinkedList llist= new LinkedList();
 //	//Node nd=new Node(5);
 ////	creating nodes
@@ -172,23 +179,36 @@ public static void main(String[] args) {
 //    System.out.println("reverse list");
 //    llist.reverse();
 	
-	String str= "this is my class";
-	String str2= null;
+//	String str= "this is my class";
+//	String str2= null;
+//	
+//	Optional<String> optional1= Optional.ofNullable(str);
+//	Optional<String> optional2= Optional.ofNullable(str2);
+//
+//	System.out.println(optional1.isPresent());
+//	System.out.println(optional1.get());
+//
+//	System.out.println(optional2.isPresent());
+//	
+//	System.out.println(optional1.isEmpty());
+//	System.out.println(optional2.isEmpty());
+//	
+//	System.out.println(optional1.orElse("this is empty object"));
+//	System.out.println(optional2.orElse("this is empty object"));
+//
+//	System.out.println(Math.pow(2, 8));
 	
-	Optional<String> optional1= Optional.ofNullable(str);
-	Optional<String> optional2= Optional.ofNullable(str2);
-
-	System.out.println(optional1.isPresent());
-	System.out.println(optional1.get());
-
-	System.out.println(optional2.isPresent());
+	char nam [] = {'s','g',   'y','u'};
+	int rachit []= {1,3,5,6,8};
 	
-	System.out.println(optional1.isEmpty());
-	System.out.println(optional2.isEmpty());
+	String str= new String();
 	
-	System.out.println(optional1.orElse("this is empty object"));
-	System.out.println(optional2.orElse("this is empty object"));
+	           String str1= new String(nam);
+	String str2= new String(nam,1,2);
 
-	System.out.println(Math.pow(2, 8));
+	System.out.println("my number is "+ "  " +str);
+	System.out.println("my number is "+"  " +str1);
+	System.out.println("my number is "+ "       "+ str2);
+
 }
 }

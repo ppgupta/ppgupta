@@ -59,12 +59,26 @@ public static void main(String[] args) {
 //	System.out.println(Arrays.toString(name));
 //	System.out.println(Arrays.toString(age));
 //	System.out.println(Arrays.toString(marks));
-//	List<String> ll= new ArrayList<>();
-//	ll.add("45");
-//	ll.add("415");
-//	ll.add("145");
-//	ll.add("245");
-//	ll.add("345");
+	List<Integer> ll= new ArrayList<>();
+	ll.add(0);
+	ll.add(8);
+	ll.add(3);
+	ll.add(2);
+	ll.add(9);
+	String arr[] = { "A", "B", "C", "D" };
+	int n = arr.length;
+	int N = (int) Math.pow(2d, Double.valueOf(n));  
+	for (int i = 1; i < N; i++) {
+	    String code = Integer.toBinaryString(N | i).substring(1);
+	    for (int j = 0; j < n; j++) {
+	        if (code.charAt(j) == '1') {
+	            System.out.print(arr[j]);
+	        }
+	    }
+	    System.out.println();
+	}
+//	401 --- 178
+	
 //	System.out.println(ll);
 
 //	Collection cl =new Collection();
@@ -86,5 +100,8 @@ public static void main(String[] args) {
 //	System.out.println(cl.getStopSms());
 //	System.out.println(cl.getStopIvr());
 
+//	Integer arr[5] = { 0, 2, 3,8,9 };
+	
+	
 	}
 }
