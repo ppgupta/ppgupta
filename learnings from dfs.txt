@@ -1,0 +1,218 @@
+project related information-- BFCMS- bank fraud case management system, we used to receive XAMS Message from mq as a input and we needed to process that xams messages through API and publish that case and store values of xams in relevant table
+
+** difference between  PathVariable and  RequestParam
+@PathVariable is used for extracting values from the URI path, whereas @RequestParam is used for extracting query parameters or form data.
+@PathVariable is typically used for resource identification in RESTful APIs, where the value is part of the URI path, while @RequestParam is used for optional parameters or filters in the request URL
+// How to create new api from scratch
+
+i created new api by using openApi swagger , we had json file using which i generated controller classes
+- firstly i created healthcheck endpoints
+- total 5 Api developments i worked on 
+i)Transaction-report api  ii)Online-load Api  iii)Status Api  iv)Trendanalysis Api
+
+Some validation Annotations
+@NotNull: to say that a field must not be null, empty strings will be returned true.
+@NotEmpty: to say that a list field must not empty, string only with whitespace character will be returned true(ex: "  " will be returned true).
+@NotBlank: to say that a string field must not be the empty string (i.e. it must have at least one character  , ex: "  " will be returned false).
+@Min and @Max: to say that a numerical field is only valid when it’s value is above or below a certain value.
+@Pattern: to say that a string field is only valid when it matches a certain regular expression.
+@Email: to say that a string field must be a valid email address.
+
+
+**  What is interceptors and filters in spring boot?
+ -interceptors allows you to intercept and process HTTP requests and responses before they are handled by controller  or sent back to client.
+
+ - interceptors are part of spring MVC framework allows pre/post processing logic to request/response lifecycle 
+
+-- interceptors can be used to enforce security , check auth headers etc. it can also be used to transform json requests to XML before reaching controller.
+
+
+**how to create custom Annotations in SPring boot?
+
+we can create custom annotations as well , i have created annotations like @MinAndMax , @NullAndEmpty
+//
+
+** what exactly is Kibana and instana?
+
+Instana is Application perfromance management tool.
+
+What is Vault for API?
+HashiCorp’s Vault is a very popular tool which is used to manage secrets securely. Before understanding about Vault, we need to firstly understand what are secrets and why they need to be stored securely. Secret is anything that is used in authorization or authentication. For example, usernames, passwords, DB credentials, API keys, etc. The problem with secrets is to manage them securely. Let us understand the problem in much more depth. Consider an e-commerce application which needs to interact with the database. It obviously require DB credentials for the same. In order to provide these credentials to the application, the most simple approach is to store them in a configuration file and load them at the time of startup. But the problem is that this sensitive information is stored in plain text as a part of our code and anyone with the access of our code can see and use them. In a better approach we can store this information in encrypted form.
+
+
+** what exactly is AppDynamics?
+AppDynamics is a leading Application Performance Management (APM) product. It is a tool that monitors your Application Infrastructure and gives you code level visibility. It is supported for all major technologies (Java, .NET, PHP, Node.js, NOSQL etc) and can be installed either as on-premise or as SaaS (Software As a Service) solution.
+
+A piece of software called Agent is installed in the Application to be monitored. The Agent collects the performance metrics and sends them to a Server process called Controller. Controller processes the metrics and presents them via Web Browser. A monitoring analyst can configure Alerts and generate reports using the Web Interface.
+
+The agent constantly monitors the application. Since it uses byte code instrumentation technology, Agent has hooks to every line of code. This is how AppDynamics is able to provide code level visibility. Agents are available for most of the popular technologies.
+
+
+
+
+Optional Return Type  -- it is useful to avoid null pointer exception
+
+A container object which can store null values as well as non null values , if value is present it will  return True , Optional.IsPresent()-- true , and we can get its value by  optional.get() if value is not present then "NoSuchElementFoundException" occurs
+Optional.Empty()
+
+var products =List.of() - factory method
+Collections.min(products,Prodcut.BY_WEIGHT )
+Collections.max(products,Prodcut.BY_WEIGHT )
+
+Collections.shuffle()
+Collections.fill()
+
+map.putIfAbsent()
+map.computeIfPresent()
+map.computeIfAbsent()
+
+WHat is stream? Stream is java type interface , 
+an object on which i can define operations , an object that does not hold any data
+
+1)advantage of stream - to leverage the computing power of multicore cpu
+
+2)avoid unnecessary intermediary computations
+
+stream.peek() - this method is similary to forEach() method except that peek returns stream(Intermediary operations ) while forEach does not return anything
+all the methods of stream that returns another stream is called lazy ,OR an operation on stream that returns another stream is called intermediary operations.
+
+stream.map() - intermediary operation- takes one object and returns another object
+stream.flatMap()- intermediary operation- takes one object and returns stream of  another object
+
+** Streams can not be reused
+
+Reductions are terminal operations
+
+String result = .collect(Collectors.joining(,))
+
+List<String> result = .collect(Collectors.toList())
+
+Mapy<String,Integer> result = .collect(Collectors.groupingByList(Person::getAge))
+
+
+only the final operation will trigger the processing of intermediary operations
+###  STRINGS  OPERATIONS
+ Strings are immutable
+StringUtils.isBlank()-- java 11 feature
+
+String.format(this is my %s for %s in %s,"book","PP","")
+
+String.valueOf(any data type)
+StringUtils.hasText()
+
+ String input = "Hey, how are you?";
+
+    // Split the input string into words and return an array of Strings
+
+        String[] words = input.split("\\s+");
+       we can store them in list by converting 
+      list=Array.asList(words)
+
+// Reverse the order of the words
+        StringBuilder reversed = new StringBuilder();
+
+
+String substring(int beginIndex)
+String substring(int beginIndex, int endIndex)
+
+Lists.newArrayList(obj1,obj2,obj3)
+String Builder
+ StringBuilder provides mutable string buffer
+
+// Java stream Api     
+   return department.getStudents()
+                .stream()
+                .map(Student::getName)
+                .toList(); 
+
+.filter()  method in stream api
+##Rest Template
+      restTemplate.postForObject(createPersonUrl, request, String.class);
+
+EmployeeList response = restTemplate.getForObject(
+  "http://localhost:8080/employees",
+  EmployeeList.class);
+List<Employee> employees = response.getEmployees();
+
+
+EmployeeList response = restTemplate.postForObject(
+  "http://localhost:8080/employees",
+  EmployeeList.class);
+
+
+used openshift container for deployment of the application
+
+we can deploy an app in ocp using two ways one by using jenkins pipeline , though in this method many times error comes in jenkins pipeline and deployment fails, we have to make changes in .helm file then push the code and jenkins jobs run after merging
+
+
+
+-Local deployment 
+Another way to deploy is through local deployments by running some set of command in cmd
+//
+
+method of deploying an app on pcf
+
+set proxy
+
+cf login -a ______________Api link
+
+select organization and space
+cf push
+after that set enviroment variable from any running instances of that app
+change the app name by going into the setting
+add relevent services by going inside working instances of that app
+
+
+we are doing virtualization , mocking of downstream services to do test autoscaling by scaling up , autoscaling means increasing or decreasing resources on basis of number of request we are getting per second.
+
+steps to do virtualization-
+
+firstly changes the endpoint in .yml file whichever downstream service i want to mock
+
+
+there is data type called as UUID 
+A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems.
+ You can create a UUID and use it to uniquely identify something. In its canonical textual representation, the 16 octets of a UUID are 
+represented as 32 hexadecimal (base-16) digits, displayed in five groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters
+ (32 hexadecimal characters and 4 hyphens). For example, a81bc81b-dead-4e5d-abff-90865d1e13b1.
+
+In Oracle NoSQL, UUID values are represented by the UUID data type. The UUID data type is considered a subtype of the STRING data type,
+ because UUID values are displayed in their canonical textual format and, in general, behave the same as string values in the various SQL operators 
+and expressions. However, in order to save disk space, the UUID value is saved in a compact format on disk. 
+If the UUID value is the primary key, the canonical 36-byte string is converted to a 19-byte string, then is saved on disk. 
+If the UUID value is a non-primary key, the canonical 36-byte string is converted to a 16-byte array, then is saved on disk.
+
+A table column can be declared as having UUID type in a CREATE TABLE statement. 
+The UUID data type is best-suited in situations where you need a globally unique identifier for the records in a table that span multiple regions
+ since identity columns are only guaranteed to be unique within a NoSQL cluster in a region.
+
+** Junit test cases , wiremock for the api
+
+mockito for mocking any services
+
+doNothing().when()
+doThrow(Exception.class).when(webhookserviceImpl).verifyAndUpdate(any(),any())
+
+spy()- method
+doNothing() - method
+
+@RunWith(PowerMockRunner.class)
+@PrepareForTest(fullyQualifiedNames = "com.baeldung.powermockito.introduction.*")
+
+
+// How to deploy application in ocp locally
+ open your project directory from git bash and execute the following commands
+
+1. helm repo update
+
+2. oc login --token=___   --server=_______
+
+3. oc project  _________ project name(partner-growth-paypal-sit)
+
+4.
+
+ we can also deploy in ocp using jenkins pipeline by runnin scripts
+
+we can deploy it locally using ocp cli
+
+
