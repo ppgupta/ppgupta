@@ -9,26 +9,40 @@ public class CodingProblem1 {
 
 	
 	public String reverseWords(String word) {
-		String output="";
-		ArrayList<String> list=new ArrayList<String>();
+		StringBuilder output =new StringBuilder() ;
+		ArrayList<String> list = new ArrayList<>();
+
+		list.addAll(Arrays.asList(word.split(" "))) ;
 		int start=0;
 
-		for(int i=0;i<word.length();i++) {
-			if(word.charAt(i)==' '|| i==word.length()-1) {
-				list.add((i==word.length()-1)?word.substring(start,i+1):word.substring(start,i));
-				start=i+1;
-			}
-		}
+		Collections.reverse(list);
+
+//		for(int i=0;i<word.length();i++) {
+//			if(word.charAt(i)==' '|| i==word.length()-1) {
+//				list.add((i==word.length()-1)?word.substring(start,i+1):word.substring(start,i));
+//				start=i+1;
+//			}
+//		}
+
 		if(list.size()==0) {
-			output=word;
+			output.toString().equals(word);
 		}
-		else {
-			for(int i=list.size()-1;i>=0;i--) {
-				output+=list.get(i)+" ";
+		else
+		{
+
+			for (String item:list){
+				output.append(item).append(" ");
 			}
+
 		}
+//
+//		{
+//			for(int i=list.size()-1;i>=0;i--) {
+//				output+=list.get(i)+" ";
+//			}
+//		}
 		
-		return output;
+		return output.toString();
 		
 	}
     public static void main(String[] args) 

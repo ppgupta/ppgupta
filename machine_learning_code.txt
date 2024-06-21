@@ -1,0 +1,154 @@
+# Importing the necessary libraries
+import pandas as pd 
+import numpy as np 
+from sklearn.preprocessing import OneHotEncoder ,LabelEncoder
+
+from sklearn.compose import ColumnTransformer
+
+# Load the dataset
+dataset=pd.read_csv('titanic.csv')
+
+# Identify the categorical data
+
+categorical_feature = ['Sex', 'Embarked', 'Pclass']
+
+# Implement an instance of the ColumnTransformer class
+ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),categorical_feature)],remainder='passthrough')
+
+# Apply the fit_transform method on the instance of ColumnTransformer
+X=ct.fit_transform(dataset)
+
+
+# Convert the output into a NumPy array
+X=np.array(X)
+
+# Use LabelEncoder to encode binary categorical data
+le = LabelEncoder()
+y = le.fit_transform(dataset['Survived'])
+
+# Print the updated matrix of features and the dependent variable vector
+print("Updated matrix of features: \n", X)
+print("Updated dependent variable vector: \n", y)
+
+
+***
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+
+from sklearn.preprocessing import OneHotEncoder,LabelEncoder
+from sklearn.preprocessing import StandardScaler
+
+from sklearn.model_selection import train_test_split
+from sklearn.compose import ColumnTransformer
+
+from sklearn.impute import SimpleImputer
+# Load the Iris dataset
+
+dataset=pd.read_csv('iris.csv')
+# Separate features and target
+X=dataset.iloc[:,:-1].values
+y=dataset.iloc[:,-1].values
+
+# Split the dataset into an 80-20 training-test set
+
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=1)
+
+# Apply feature scaling on the training and test sets
+scaler=StandardScaler()
+X_train=scaler.fit_transform(X_train)
+X_test=scaler.fit_transform(X_test)
+
+# Print the scaled training and test sets
+print("Scaled Training Set:")
+print(X_train)
+print("\nScaled Test Set:")
+print(X_test)
+
+
+## Artifical Neural Network
+
+import tensorflow as tf
+
+# initializing the ann
+
+ann=tf.keras.models.Sequential()
+
+# adding the input layer
+
+ann.add(tf.keras.layers.Dense(units='6',activation='relu'))
+
+# adding the first hidden layer
+
+ann.add(tf.keras.layers.Dense(units='6',activation='relu'))
+
+# adding the  output layer
+
+ann.add(tf.keras.layers.Dense(units='1',activation='sigmoid'))   # for dataset having more than 2 catgory activation function should be soft max
+
+
+#Compiling the ANN
+
+ann.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy'])  # for dataset having more than 2 catgory loss function should be loss='categorical_crossentropy'
+
+#Training the ANN
+
+ann.fit(X_train, y_train, batch_size=32, epochs=100)
+
+in deep learning feature scaling is mandatory and feature scaling is applied to every columns even encoded data
+
+The Adam optimizer, short for “Adaptive Moment Estimation,” is an iterative optimization algorithm used to minimize the loss function during the training of neural networks.
+
+#Confusion matrix
+
+from sklearn.metrics import confusion_matrix,accuracy_score
+
+cm=confusion_matrix(y_test,y_pred)
+print(cm)
+
+accuracy = accuracy_score(y_,test, y_pred)
+print(accuracy)
+
+
+-- we should not apply feature scaling standardisation to encoded data because doing so will make actual interpretation of encoded data
+
+-- in multiple linear regression , feature scaling is absolutely not required
+
+
+The Mean Squared Error (MSE) and R-squared score are both metrics used to evaluate the performance of regression models. Here's what each of these metrics means:
+
+Mean Squared Error (MSE):
+
+-The Mean Squared Error is a measure of the average squared difference between the actual and predicted values in the dataset.
+-It quantifies the average magnitude of the errors or residuals between the predicted values and the actual values.
+-A lower MSE indicates better model performance, as it means the model's predictions are closer to the actual values.
+-In your case, the MSE value of approximately 4.86 billion indicates that, on average, the squared difference between the predicted and actual target values is quite large. This suggests that the model's predictions may have significant errors.
+
+
+R-squared Score:
+
+-The R-squared (R2) score is a statistical measure that represents the proportion of the variance in the dependent variable that is explained by the independent variables in the model.
+-It ranges from 0 to 1, where 1 indicates a perfect fit (the model explains all the variability of the response data around its mean) and 0 indicates that the model does not explain any of the variability.
+-A higher R-squared score indicates a better fit of the model to the data.
+-In your case, the R-squared score of approximately 0.64 indicates that the model explains around 64% of the variance in the target variable. While this is not perfect, it suggests that the model has some explanatory power.
+
+
+
+**** what is random forest?
+a Random Forest is a machine learning technique used for classification and regression tasks. It works by creating a collection (or "forest") of decision trees during training time and outputting the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+
+
+Building Multiple Trees:
+
+In a Random Forest, many decision trees are built using different subsets of the data. These subsets are randomly chosen.
+Each tree is trained on a slightly different set of data and may make slightly different decisions.
+Combining Trees' Results:
+
+After all the trees have been built, the Random Forest combines their results.
+For classification tasks, it takes a vote from each tree to decide the most common class (like majority voting).
+For regression tasks, it averages the predictions from all the trees to produce a final result.
+
+Example Analogy
+Imagine you have a group of doctors diagnosing patients. Each doctor looks at different aspects and asks different questions to make their diagnosis. One doctor might ask about symptoms, another might check medical history, and another might look at test results. Each doctor makes their own decision. The final diagnosis is decided by taking the majority vote from all the doctors. This way, even if one doctor makes a mistake, the overall decision is likely to be correct because it’s based on the collective wisdom of the group.
+
+In the same way, a Random Forest relies on the collective decision-making of multiple decision trees to make more accurate and reliable predictions.

@@ -1,0 +1,109 @@
+1 what is wrapper class?
+2 @Transaction annotation
+3. DIfference between @Component and @Bean
+4. Sprint security , jwt
+5. SOLID Principles 
+The SOLID principles are a set of five design principles that help software developers create more maintainable and scalable software systems. Each principle focuses on a different aspect of software design, promoting flexibility, readability, and ease of maintenance. Here's a simple overview of each principle:
+
+### a. Single Responsibility Principle (SRP):
+
+**Definition**: A class should have only one reason to change, meaning it should have only one job or responsibility.
+
+**Why It Matters**: By focusing on a single responsibility, classes become more cohesive and easier to understand. Changes related to that responsibility are less likely to affect other unrelated parts of the system.
+
+**Example**: A `User` class should handle user information and methods related to users, but not be responsible for formatting dates or sending emails.
+
+### b. Open/Closed Principle (OCP):
+
+**Definition**: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+
+**Why It Matters**: This principle encourages the use of abstraction and inheritance to allow new functionality to be added without altering existing code. It promotes stability and minimizes the risk of introducing bugs in existing code.
+
+**Example**: Using interfaces and abstract classes to define behaviors that can be implemented or extended by other classes without modifying the original class.
+
+### c. Liskov Substitution Principle (LSP):
+
+**Definition**: Subtypes (derived classes or implementations) should be substitutable for their base types (parent classes or interfaces) without altering the correctness of the program.
+
+**Why It Matters**: Ensures that inheritance hierarchies are designed correctly, maintaining expected behavior across different implementations of the same interface or base class.
+
+**Example**: If you have a base class `Shape` and subclasses `Rectangle` and `Circle`, any method that accepts a `Shape` should work correctly with instances of `Rectangle` or `Circle`.
+
+### d. Interface Segregation Principle (ISP):
+
+**Definition**: Clients should not be forced to depend on interfaces they do not use. Instead of one large interface, use multiple smaller interfaces segregated by client requirements.
+
+**Why It Matters**: Prevents clients from depending on methods they don't need, reducing the impact of changes and making systems more maintainable and understandable.
+
+**Example**: Instead of a single `Vehicle` interface with methods for cars, planes, and boats, separate interfaces like `Driveable`, `Flyable`, and `Sailable` based on client needs.
+
+### e. Dependency Inversion Principle (DIP):
+
+**Definition**: High-level modules should not depend on low-level modules. Both should depend on abstractions (interfaces or abstract classes). Abstractions should not depend on details; details (concrete implementations) should depend on abstractions.
+
+**Why It Matters**: Reduces coupling between modules, making systems more flexible and easier to change. It facilitates the use of dependency injection to manage object dependencies.
+
+**Example**: Instead of directly instantiating a database connection in a service class, inject a `DatabaseConnection` interface or abstract class that the service depends on.
+
+### Benefits of SOLID Principles:
+
+- **Maintainability**: Easier to understand, extend, and modify code without unintended side effects.
+- **Scalability**: Supports the growth of software systems by making them more adaptable to new requirements.
+- **Readability**: Enhances code clarity and reduces complexity, improving collaboration among developers.
+- **Testability**: Facilitates unit testing and integration testing by promoting loose coupling and dependency management.
+
+By applying these principles, developers can create software that is more robust, adaptable, and maintainable over its lifecycle.
+
+6. Collection framework ,List , difference between hashmap and hashtable
+
+7. builder design pattern
+
+8. what is serialization and deserialization?
+
+9. jdbc and spring jpa , hibernate
+
+10. DIfference between @RestControler and @Controller
+
+11. what is metaspace and perm gen
+
+12.what annotations are used in spring security? 
+@EnableWebSecurity
+@Configuration
+@Secured
+@PreAuthorize -- Description: Checks the given expression before entering the method
+@PostAuthorize--Description: Checks the given expression after the method has been executed.
+@PreFilter and @PostFilter -- Description: Filters collections or arrays before or after the method invocation.
+
+@EnableGlobalMethodSecurity -- Description: Enables method security at a global level
+
+13) ddos attack and csrf attack and how to mitigate them
+
+14) kafka and eureka server
+
+kafka is publish subscribe based durable messaging system , exchanging data between process, application and servers
+
+15) Types of garbage collectors
+
+16) advantage of webclients over rest template - rest template is synchronous and webclient is asynchronous
+
+webclients are ansynchronous while rest template is synchronous
+
+Synchronous:
+
+Analogy: Phone call 
+Characteristics: Real-time, blocking, immediate response required.
+Example: Calling a friend and having a live conversation.
+Asynchronous:
+
+Analogy: Text message
+Characteristics: Non-blocking, delayed response, allows multitasking, immediate response not required
+Example: Sending a text and continuing with your day while waiting for a reply
+
+17)  Brief introduction about yourself. 
+ Asked to share the screen and write a  sorting algorithm to sort a set of Integers 
+   without using any built in functions or Utlities methods
+ 
+------------------------------------------------------
+Write snippets for Full Microservices to implement GET, PUT and PATCH method
+
+
