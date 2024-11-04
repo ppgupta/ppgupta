@@ -1,6 +1,6 @@
 Bihar BPSC  geography
 
-differt district and district HQ name
+different district and district HQ name
 
 total 38 districts in bihar
 
@@ -9,7 +9,7 @@ purba champaran - motihari , west champaran - Bettiah
 saran- chhapra , Ara - Bhojpur
 
 - Gaya is southermost and west champaran is northern most district , Eastermost is kishanganj and westernmost is Kaimur district.
-- Kaimur does not touches jharkhand  , kaimur and rohtas both touches UP , 
+- Kaimur does not touches Jharkhand only UP  , kaimur and rohtas both touches UP , 
 - rohtas touches jharkhand as well as UP .
 - Bihar is landlocked state
 - latitudinal extend from 24'20"10''' North to 27'31''15''' North , longitude 83 degree 19 min to 88 degree 17 min.
@@ -20,7 +20,7 @@ saran- chhapra , Ara - Bhojpur
 - On 15th November 2000 Jharkhand got separated from Bihar.
 - Bihar has 729 Km of international boundary with Nepal
 - Kishanganj District shares border with both Nepal and West Bengal.
-- North Bihar plain - bagmati plain
+- North Bihar plain - bagmati plain , Saran plains between ghagra and gandak river
 
 *** Geology of Bihar ***
 
@@ -32,7 +32,7 @@ saran- chhapra , Ara - Bhojpur
 - kaimur and Son valley of Rohtas districts
 3) Tertiary rocks - 66 million years to 2.6 million years ago , formed during collision of eurasian plate with indian plates.
 - Mineral rich
-- West Champaran district , it is found in Terai region of shivalik ranges in Bihar
+- West Champaran district , it is found in Terai region of shivalik ranges in Bihar , Terai is marshy land
 4) Quaternary rocks(plain area)
 -The Quaternary rock system is a collection of the most recent geologic strata, which are found in the form of sediments and rocks. These deposits are located near the Earth's surface in plains, valleys, seashores, and even the seafloor. 
 - In bihar it is found between himalayan terai regions in the north and chota nagpur plateau region in the south.
@@ -40,7 +40,7 @@ saran- chhapra , Ara - Bhojpur
 - it forms the largest area in bihar
 
 ********* Physiographic Divisions of Bihar ***********
-##The extension of of Shiwalik Ranges and it's Terai Region are found in North-western part of Western Champaran in Bihar.
+##The extension of of Shiwalik Ranges and it's Terai Region(marshy lands) are found in North-western part of Western Champaran in Bihar.
 - It is spread in 932 sq. Km. This region represents Tertiary Rock System in Bihar. It is further subdivided into three parts:-
  a) Ramnagar Doon: This is the southern most part of Terai Region and spread into 214 sq. Km area. The highest altitude in this region is about 240 metres
 called Santpur peak.
@@ -64,19 +64,24 @@ c) Doon Valley/ Harha valley: This region lies between Ramnagar Doon and Someshw
          c) Koshi - Mahananda Doab
 
 - The Northern Plains are down sloping from Nepal in North towards the Ganga river. Gradient of slope is more in this plain than the Southern part of Bihar,. Which results into more erosion due to increased Kinetic Energy which helps in increasing carrying capacity of the rivers in this region. Which is also supported large amount outflow  of water from Nepal into India. These rivers generally bring floods in Northern Bihar especially Madhubani, Supaul, Araria, Madhepura, Saharasa, Khagaria, Darbhanga etc.(reason why there is flood almost every year in north bihar!!)
+
 -This region is mainly plain and same everywhere but still differ due to differences in flow of rivers. Koshi, Gandak and Ganga Basin differ from each other significantly.
 -The Northern part  bordering Nepal is swampy in nature while middle part is quite elevated while near Southern bank of Ganga many interesting fluvial landforms are found which are as follows:-
             a)Diara : These are formed by rivers, when it found hard bedrock in the way of their flow, which lead to formations of two branches of the river and again both branches aligned with each other. Hence a standalone land surface is formed between both the branches of the river.
 -The Diara region is highly fertile due to the presence new alluvium (Khadar) and availability of water is sufficient.Example:- Raghopur Diara.
 
-            b)Chaur/Chharan Lake 
-            - These are standalone lakes, found in Northern plains. These are formed due to drying of branches of rivers in summer season. These branches are formed in Rainy when excess water come in main channel of the river then it tends ot form branches which cut down from the main channel during summer due to decreased flow in hte main channel of the river.
-
-
+            b)Chaur/Chharan Lake (ox-bow lake or gokhur jheel)
+            - These are standalone lakes, found in Northern plains. These are formed due to drying of branches of rivers in summer season. These branches are formed in Rainy when excess water come in main channel of the river then it tends to form branches which cut down from the main channel during summer due to decreased flow in the main channel of the river.
+- more oxbow lakes in madhubani and Darbhanga region due to kosi and kamla plains
+- Mahananda plains -easternmost part of bihar
 
 
  ii)The Southern Plains of Bihar : This region is quite complex in terms of physiographical features as it also have some hills coming out of the surface almost in every districts especially in the Southern parts of the district.
-- It is formed due to outpouring of Batholith. Some important examples are Gaya Hills (266 metre), Rajgir Hills (466 metre), Kharagapur (510 metre), Barabar Hills and Giriak Hills.
+- It is formed due to outpouring of Batholith. Some important examples are Gaya Hills (266 metre), Rajgir Hills (466 metre), Kharagapur (510 metre), Barabar Hills(ajivika sect) and Giriak Hills.
+-Shahbad plains- Bhojpur , kaimur, Buxar
+- Kiul plains - kiul river , south central bihar	
+
+- Chandan plains - Banka and Bhagalpur districts
 - The Western part of Southern Plains is much wider than the Eastern part. The slope of the Southern plain is quite gentler than the Northern  plains. It's slope is about 6cm/Km from South to North towards Ganga Basin. Which results into formation of numerous swamps near southern bank of Ganga from Badh (Patna) to Bhagalpur. These Swamps in Bihar known as 'Tal'. Example:- Mokama Tal
 -This plain is made up of Sandy soil formed out of older alluvium (Bhangar) brought by Peninsular Rivers like Son, Punpun, Phalgu, Kiul, Ajay etc. This soil absorb water very readily but still the ground water level in this part is sufficient.
 -This region faces droughts almost after every 2-3 year. Which results into uncertainty of crops (especially Paddy cultivation) in this region.
@@ -91,20 +96,90 @@ c) Doon Valley/ Harha valley: This region lies between Ramnagar Doon and Someshw
 
 
 
-
 ## Southern Plateau Region: This is found in the southern flanks of Bihar between Southern Plain and Chhotanagpur Plateau of Jharkhand. basically it is located between Kaimur in the West to Banka in the East. 
 - This region is blessed with many conical Hills which are made of batholith, like Pretshila, Ramshila and Jethian Hills etc.
+- Brahmayoni hills in gaya
 - It is made up of hard rocks like Gneiss, Schist and Granite etc. This region is rich in minerals and almost all mineral resources of Bihar are found from this region itself.
  This can be further divided into two parts:-
-          a) Western Part: Extention of Chhotanagpur Plateau in Bihar. It is spread in Kaimur, Rohtas Aurangabad, Gaya, Nawada and some parts of Jamui.
+          a) Western Part: Extention of Chhotanagpur Plateau in Bihar. It is spread in Kaimur, Rohtas , Aurangabad, Gaya, Nawada and some parts of Jamui.
 
           b) Eastern Part: This is an extension of Rajmahal Hills (Oldest Part in Bihar). It extends from Bhagalpur, Munger, Banka, and some parts of Jamui.
 
 
+                           
+
+                               ******************************** Rivers of Bihar ********************************
+
+- the drainage pattern of Bihar is trellis and dentritic due to physical conditions.
+- A trellis drainage pattern is a type of river drainage pattern that forms when a river's main tributaries flow parallel to each other, and secondary tributaries join them at right angles: 
+- Ganga is largest river in bihar with total length of 445 km in bihar , Ganga river enters in bihar through bhojpur and saran district.
+
+- Ganga is main drainage channel , left bank tributaries in north bihar is ghagra , gandak , burhi gandak , kamla , kosi , Mahananda 
+
+- Ghagra river meets ganga at chapra from left , its origin is at Mapchachungo glacier in tibbet.
+
+- Gandak river is also called narayani river in Nepal , Valmiki national park is located on this river, it joins ganga near Patna districts.
+    --The Gandak River is formed by the confluence of the Kali and Trisuli rivers, which originate in the Great Himalaya Range in Nepal.
+
+-Bagmati river originates from Shivpuri hills of Kathmandu , pashupatinath temple is major hindu pilgrimage located on bagmati river.
+
+- Kamla -Balan rivers merges together and further they merge into Kosi.
+- Kosi is perennial river , snowfed river.
+
+- One stream of Mahananda river originates from Nepal Himalaya and meet Ganges near Rajmahal in Bihar locally known as Fulhar river , other streams originate from Darjeeling and meet ganga in bangladesh.
+-Right bank tributaries in south of bihar is son , punpun ,kiul , phalgu ,karmnasa , badua
+- Burhi gandak originates from spring of Someshwar hills range other than burhi gandak all other left bank tributaries of Ganga in bihar originates from Himalayas
+- The Karmanasa River originates in the Kaimur district of Bihar and joins ganga at Chausa, at a height of 350 meters on the northern face of Kaimur Range near Sarodag. The river then flows through the states of Uttar Pradesh and Bihar. 
+- Son originates from maikal hills in Amarkantak Region and meets ganges near Patna.
+
+                                              
+
+                                                    ********************Bihar History *************************
+
+- Palaeolithic sites have been discovered in Munger(Paisra), West Champaran(Valmiki national park), Nalanda.
+- Mesolithic sites in bihar is Munger.
+- Santhal Pargana, Ranchi, Hazaribagh, and Singhbhum all have Mesolithic sites (all in Jharkhand Today)
+- Neolithic artefacts from the periods between 2500 and 1500 B.C. have been found at Chirand(saran), Swetpur(Darbhanga),Taradih(Body gaya), Senuar(Rohtas),Maren(Patna) and Chechar(Vaishali).
+- First evidence of Neolithic sites has been found at Chirand , 2nd largest neolithic sites after J and K, Kushan Coins have also been found from Chirand site,discovered by w.w. hunter in 1871.
+- Antichak vilage in Bhagalpur ,remains of vikramshila mahavihar made by Dharampala(Pala ruler).
+- Kumhrar near Patna is archaeological site dates back to Mauryan period , 80 Pillared hall of Ashoka.
+- Bulandgarh in Patna is archaeological site dates back to Mauryan period, many Mauryan period evidence like coins , terracotta ,wooden structures are found. In 1895, L.A. Waddell discovered the Pataliputra capital at Bulandi Bagh. 
+- Dharmasthiya and Kantakasodhana, in the context of Mauryan administration refers to Civil and Criminal court respectively.
+- Bhadrabahu was guru of Chandragupta Maurya who wrote book 'Kalpsutra' was also leader and jain saint of Digambar buddhism.
+-The Maski Ashoka Inscription is one of the earliest known inscriptions of Ashoka that contains his name: 
+- Prakrit and the Kharoshthi script are used in inscriptions at Mansehra and Shahbazgarhi. 
+-The state emblem of the Mauryan Empire is believed to have been the peacock
+- 7 major pillar edicts of Ashoka , three in bihar 1) Lauria-nandangarh in West Champaran district, Bihar has single lion capital
+                                                   2) The pillar at Lauriya-Areraj in East Champaran district
+                                                   3) Rampurva pillar at West Champaran
+- Artefacts from the Chalcolithic Age have been found in Taradih, Chirand, Chechar, and Vaishali (Gaya).
+- Rajgir has Jivak Vihar , Jīvaka was the personal physician of the Buddha and the King Bimbisāra. He lived in Rājagṛha, present-day Rajgir, in the 5th century BCE.
+- In rigveda Bihar was called Kikat(Forest) , in atharvaveda bihar was called vratya pradesh(wanderer), in Purana gaya region was called (Asura) 
+- Satapatha Brahmana talked about the migration and dispersion of the Aryans in bihar in Later Vedic Period.
+
+- Bimbisara merged magadha into anga, bimbisara was contemporary of buddha and mahavira. The jain text mentions he was disciple of Mahavira.
+- Bimbisara was first to use elephant in army.
+- King Bimbisara, who was also known as Shrenika or Seniya, was the son of King Bhattiya, the first king of the Haryanka dynasty
+- Ajatsatru was knowns as 'Kunika'. He used new type of weapon during war against Vaishali.
+- vikramshila uiversity- tanrik buddhism (Vajrayana buddhism), Thangka painting is related to Vajrayana buddhism
 
 
-********************Bihar History *************************
+- 1st buddhist council by ajatsatru , presided by mahakashyapa, at saptakami caves of vaibhara hill in rajgriha.
+-The Assaka Mahajanapada was located in central India, on the banks of the Godavari River. It included areas in present-day Telangana, Maharashtra, and possibly Andhra Pradesh , capital was at potali. 
+- The Panchala Mahajanapada had two capitals: Kampilya in the south and Ahichchhatra in the north.
+- dhananand was contemporary of Alexander who invaded india in 327 BCE.
+- In india Patlputra was called 'Palibothra'
+- Licchavi clan was part of Vajji
+# First Capital of Bihar - Rajgir: RAJGIR 
+a. 1st capital of bihar by Jarasandh 
+b. hiun tsang called as kushagrapura 
+c. Girivraj in  mahabharata  
+d. vashumati in Ramayan 
+e. surrounded by 7 hills named as Ratnagiri, Vipulachal, Vaibhavagiri, Songiri and Udaygiri, chhatha, shaligiri
 
-- The Barabar Hill Caves are the oldest surviving rock-cut caves in India, dating from the Maurya Empire (322–185 BCE), some with Ashokan inscriptions, located in the Makhdumpur region of Jehanabad district.
+- The Barabar Hill Caves are the oldest surviving rock-cut caves in India(Ajivika sect), dating from the Maurya Empire (322–185 BCE), some with Ashokan inscriptions, located in the Makhdumpur region of Jehanabad district.
+- Barabar caves also called Gorathgiri or saptagarhwa caves as it has 7 caves. 
+
 -Karnata or Karnat dynasty was established by Nanyadev in 1097 CE and was a Maithil dynasty.maithili language began to develop during his rule after the end of pala rule in region and disappearnace of buddhism.
+- Vikramshila university located in present day Bhagalpur district of Bihar.
 
